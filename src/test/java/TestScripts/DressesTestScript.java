@@ -18,7 +18,7 @@ public class DressesTestScript {
 
 	@Test
 	public void verifyHeaderCount() {
-		hp.clickDresses1();
+		hp.clickDresses14();
 		Assert.assertEquals(dp.getCountFromHeader(), dp.getProductCount(), "Failed: Not Equal");
 	}
 
